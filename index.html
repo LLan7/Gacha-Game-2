@@ -34,7 +34,7 @@
             const userAnswer = parseInt(document.getElementById('answer').value);
             if (userAnswer === currentAnswer && pullCount < maxPulls) {
                 pullCount++;
-                const fixedReward = "You got: 0.5€ (fixed reward)";
+                const fixedReward = "You got: 0.5€";
                 document.getElementById('reward').textContent = fixedReward;
 
                 const history = document.getElementById('history');
